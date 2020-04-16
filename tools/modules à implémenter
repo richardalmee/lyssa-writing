@@ -1,0 +1,31 @@
+Modèles :
+    Monde
+    Projet
+        Série
+        Livre
+        Chapitre
+        Scène
+        Séquence
+        Plan
+        Texte
+        Note
+        Poème
+        Acte
+        Brouillon
+            Flocon
+            Description_Série
+            Description_Chapitre
+            Description_Scène
+            Description_Séquence
+            Description_Plan
+            Description_Texte
+            Description_Acte
+    Personnage
+    Famille
+    Caractéristique physique
+    Vêtement
+    Lieu -> Pays, Ville, Village
+    Mythe
+    Intrigue
+    Événement
+
