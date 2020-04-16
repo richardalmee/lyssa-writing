@@ -2,7 +2,7 @@ export default {
   items: [
     {
       name: 'Dashboard',
-      url: '/dashboard',
+      url: '/global-theme/dashboard',
       icon: 'icon-speedometer',
       badge: {
         variant: 'info',
@@ -20,12 +20,12 @@ export default {
     },
     {
       name: 'Colors',
-      url: '/theme/colors',
+      url: '/global-theme/theme/colors',
       icon: 'icon-drop',
     },
     {
       name: 'Typography',
-      url: '/theme/typography',
+      url: '/global-theme/theme/typography',
       icon: 'icon-pencil',
     },
     {
@@ -38,131 +38,131 @@ export default {
     },
     {
       name: 'Base',
-      url: '/base',
+      url: '/global-theme/base',
       icon: 'icon-puzzle',
       children: [
         {
           name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
+          url: '/global-theme/base/breadcrumbs',
           icon: 'icon-puzzle',
         },
         {
           name: 'Cards',
-          url: '/base/cards',
+          url: '/global-theme/base/cards',
           icon: 'icon-puzzle',
         },
         {
           name: 'Carousels',
-          url: '/base/carousels',
+          url: '/global-theme/base/carousels',
           icon: 'icon-puzzle',
         },
         {
           name: 'Collapses',
-          url: '/base/collapses',
+          url: '/global-theme/base/collapses',
           icon: 'icon-puzzle',
         },
         {
           name: 'Dropdowns',
-          url: '/base/dropdowns',
+          url: '/global-theme/base/dropdowns',
           icon: 'icon-puzzle',
         },
         {
           name: 'Forms',
-          url: '/base/forms',
+          url: '/global-theme/base/forms',
           icon: 'icon-puzzle',
         },
         {
           name: 'Jumbotrons',
-          url: '/base/jumbotrons',
+          url: '/global-theme/base/jumbotrons',
           icon: 'icon-puzzle',
         },
         {
           name: 'List groups',
-          url: '/base/list-groups',
+          url: '/global-theme/base/list-groups',
           icon: 'icon-puzzle',
         },
         {
           name: 'Navs',
-          url: '/base/navs',
+          url: '/global-theme/base/navs',
           icon: 'icon-puzzle',
         },
         {
           name: 'Paginations',
-          url: '/base/paginations',
+          url: '/global-theme/base/paginations',
           icon: 'icon-puzzle',
         },
         {
           name: 'Popovers',
-          url: '/base/popovers',
+          url: '/global-theme/base/popovers',
           icon: 'icon-puzzle',
         },
         {
           name: 'Progress Bar',
-          url: '/base/progress-bar',
+          url: '/global-theme/base/progress-bar',
           icon: 'icon-puzzle',
         },
         {
           name: 'Switches',
-          url: '/base/switches',
+          url: '/global-theme/base/switches',
           icon: 'icon-puzzle',
         },
         {
           name: 'Tables',
-          url: '/base/tables',
+          url: '/global-theme/base/tables',
           icon: 'icon-puzzle',
         },
         {
           name: 'Tabs',
-          url: '/base/tabs',
+          url: '/global-theme/base/tabs',
           icon: 'icon-puzzle',
         },
         {
           name: 'Tooltips',
-          url: '/base/tooltips',
+          url: '/global-theme/base/tooltips',
           icon: 'icon-puzzle',
         },
       ],
     },
     {
       name: 'Buttons',
-      url: '/buttons',
+      url: '/global-theme/buttons',
       icon: 'icon-cursor',
       children: [
         {
           name: 'Buttons',
-          url: '/buttons/buttons',
+          url: '/global-theme/buttons/buttons',
           icon: 'icon-cursor',
         },
         {
           name: 'Button dropdowns',
-          url: '/buttons/button-dropdowns',
+          url: '/global-theme/buttons/button-dropdowns',
           icon: 'icon-cursor',
         },
         {
           name: 'Button groups',
-          url: '/buttons/button-groups',
+          url: '/global-theme/buttons/button-groups',
           icon: 'icon-cursor',
         },
         {
           name: 'Brand Buttons',
-          url: '/buttons/brand-buttons',
+          url: '/global-theme/buttons/brand-buttons',
           icon: 'icon-cursor',
         },
       ],
     },
     {
       name: 'Charts',
-      url: '/charts',
+      url: '/global-theme/charts',
       icon: 'icon-pie-chart',
     },
     {
       name: 'Icons',
-      url: '/icons',
+      url: '/global-theme/icons',
       icon: 'icon-star',
       children: [
         {
           name: 'CoreUI Icons',
-          url: '/icons/coreui-icons',
+          url: '/global-theme/icons/coreui-icons',
           icon: 'icon-star',
           badge: {
             variant: 'info',
@@ -171,12 +171,12 @@ export default {
         },
         {
           name: 'Flags',
-          url: '/icons/flags',
+          url: '/global-theme/icons/flags',
           icon: 'icon-star',
         },
         {
           name: 'Font Awesome',
-          url: '/icons/font-awesome',
+          url: '/global-theme/icons/font-awesome',
           icon: 'icon-star',
           badge: {
             variant: 'secondary',
@@ -185,36 +185,36 @@ export default {
         },
         {
           name: 'Simple Line Icons',
-          url: '/icons/simple-line-icons',
+          url: '/global-theme/icons/simple-line-icons',
           icon: 'icon-star',
         },
       ],
     },
     {
       name: 'Notifications',
-      url: '/notifications',
+      url: '/global-theme/notifications',
       icon: 'icon-bell',
       children: [
         {
           name: 'Alerts',
-          url: '/notifications/alerts',
+          url: '/global-theme/notifications/alerts',
           icon: 'icon-bell',
         },
         {
           name: 'Badges',
-          url: '/notifications/badges',
+          url: '/global-theme/notifications/badges',
           icon: 'icon-bell',
         },
         {
           name: 'Modals',
-          url: '/notifications/modals',
+          url: '/global-theme/notifications/modals',
           icon: 'icon-bell',
         },
       ],
     },
     {
       name: 'Widgets',
-      url: '/widgets',
+      url: '/global-theme/widgets',
       icon: 'icon-calculator',
       badge: {
         variant: 'info',
@@ -230,7 +230,7 @@ export default {
     },
     {
       name: 'Pages',
-      url: '/pages',
+      url: '/global-theme/pages',
       icon: 'icon-star',
       children: [
         {
@@ -257,7 +257,7 @@ export default {
     },
     {
       name: 'Disabled',
-      url: '/dashboard',
+      url: '/global-theme/dashboard',
       icon: 'icon-ban',
       attributes: { disabled: true },
     },

@@ -16,7 +16,7 @@ import {
   AppSidebarNav2 as AppSidebarNav,
 } from '@coreui/react';
 // sidebar nav config
-import navigation from '../../_nav';
+import navigation from '../../_nav_home';
 // routes config
 import routes from '../../routes';
 
@@ -68,7 +68,7 @@ class HomeLayout extends Component {
                         )} />
                     ) : (null);
                   })}
-                  <Redirect from="/" to="/dashboard" />
+                  <Redirect from="/home" to="/home/dashboard" />
                 </Switch>
               </Suspense>
             </Container>

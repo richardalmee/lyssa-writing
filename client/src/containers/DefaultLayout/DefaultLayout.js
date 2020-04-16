@@ -68,7 +68,7 @@ class DefaultLayout extends Component {
                         )} />
                     ) : (null);
                   })}
-                  <Redirect from="/" to="/dashboard" />
+                  <Redirect from="/global-theme" to="/global-theme/dashboard" />
                 </Switch>
               </Suspense>
             </Container>
