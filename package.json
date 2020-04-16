@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "npm start --prefix client",
+    "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/richardalmee/lyssa-writing/issues"
   },
-  "homepage": "https://github.com/richardalmee/lyssa-writing#readme"
+  "homepage": "https://github.com/richardalmee/lyssa-writing#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
 }

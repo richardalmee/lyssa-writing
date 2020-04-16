@@ -24,3 +24,9 @@ client/yarn-error.log*
 
 # all tools
 tools
+
+# core modules
+node_modules
+
+# vs code stuff
+.vscode
