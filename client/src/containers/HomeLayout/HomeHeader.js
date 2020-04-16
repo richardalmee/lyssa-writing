@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
 import logo from '../../assets/img/brand/logo.svg'
-// import sygnet from '../../assets/img/brand/sygnet.svg'
+import sygnet from '../../assets/img/brand/sygnet.svg'
 
 const propTypes = {
   children: PropTypes.node,
@@ -22,18 +22,19 @@ class HomeHeader extends Component {
     return (
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
+        <span>Lyssa</span>
         <AppNavbarBrand
           full={{ src: logo, width: 89, height: 25, alt: 'Lyssa Writing' }}
-          minimized={{ src: logo, width: 30, height: 30, alt: 'Lyssa' }}
+          minimized={{ src: sygnet, width: 30, height: 30, alt: 'Lyssa' }}
         />
         <AppSidebarToggler className="d-md-down-none" display="lg" />
 
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <NavLink to="/dashboard" className="nav-link" >Tableau de bord</NavLink>
+            <NavLink to="/dashboard" className="nav-link" >Accueil</NavLink>
           </NavItem>
           <NavItem className="px-3">
-            <Link to="/users" className="nav-link">Utilisateurs</Link>
+            <Link to="/users" className="nav-link">Projets</Link>
           </NavItem>
           <NavItem className="px-3">
             <NavLink to="#" className="nav-link">Paramètres</NavLink>
